@@ -1,0 +1,21 @@
+{
+    "name": "01.factory",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "web": "npx http-server .",
+        "server": "node ui/index.mjs",
+        "test": " "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "rewiremock": "^3.14.3"
+    },
+    "dependencies": {
+        "http-server": "^0.12.3"
+    }
+}
