@@ -12,7 +12,6 @@ export default class TableBrowserComponent extends TableComponent {
 
         const joinLists = list => list.join('')
 
-        console.log('data', data)
 
         const tbodyValues = data
                     .map(item => Object.values(item))
